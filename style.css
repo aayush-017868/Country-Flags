@@ -1,0 +1,215 @@
+/* Legacy Codebase */
+
+.country{height: 300px; width: 400px; position: absolute;}
+
+.circle{height: 150px;width: 150px;}
+
+p{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:40%;
+    top:10%;
+}
+
+.rectangle{position: absolute; height: 250px; width: 400px;}
+
+.name{
+    position: absolute;
+    top: 250px;
+    height: 40px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: beige;
+    font-size: 1.5rem;
+}
+
+/* ---------------------------------------- */
+/* Palau */
+
+#palau{background-color: rgb(74, 173, 214);}
+
+#palaucircle{
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    left: 23%;
+    top:20%;
+}
+
+
+/* ------------------------------------------ */
+/* Japan */
+#posJapan{
+    position: absolute;
+    left: 500px;
+    top:8px;
+}
+#japan{background-color: white; border:1px solid rgb(236, 232, 225)}
+#japancircle{
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    left: 30%;
+    top:20%;
+}
+/* ------------------------------------------ */
+/* Ukraine */
+#posukraine{
+    position: absolute;
+    left: 1000px;
+    top:8px;
+}
+.ukraineup{
+    position: absolute;
+    background-color: #0057b8;
+    height: 125px;
+    width: 100%;
+    top:0%;
+}
+.ukrainedown{
+    position: absolute;
+    background-color: #ffd700;
+    width: 100%;
+    height:50% ;
+    top:50%;
+}
+/* ------------------------------------------ */
+/* Latvia */
+#poslatvia{
+    position: absolute;
+    left: 1500px;
+    top:8px;
+}
+#latvia{background-color: rgb(158, 48, 57);}
+.midlatvia{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    top:100px;
+}
+/* ------------------------------------------ */
+/* Nigeria */
+#nigeria{
+    position: absolute;
+    top: 400px;
+    border-top: 1px solid rgb(240, 233, 233);
+}
+#nigeriabox{
+    position: absolute;
+    background-color: rgb(0, 135, 81);
+}
+.nigeriawhite{
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width:33%;
+    left:33%;
+}
+/* ------------------------------------------ */
+/* Peru */
+#peru{
+    position: absolute;
+    left: 500px;
+    top:400px;
+    border-top: 1px solid rgb(240, 233, 233);
+}
+#perubox{background-color: rgb(217, 16, 35);}
+.peruwhite{
+    position: absolute;
+    left: 33%;
+    height: 100%;
+    width: 33%;
+    background-color: white;
+}
+/* ------------------------------------------ */
+/* Poland */
+#poland{
+    position: absolute;
+    left: 1000px;
+    top: 400px;
+    border-top: 1px solid rgb(240, 233, 233);
+}
+.polandup{
+    position: absolute;
+    background-color: #ffffff;
+    height: 125px;
+    width: 100%;
+    top:0%;
+}
+.polanddown{
+    position: absolute;
+    background-color: rgb(220, 20, 60);
+    width: 100%;
+    height: 50%;
+    top:50%;
+}
+/* ------------------------------------------ */
+#sweden{position: absolute; top:800px;}
+#swedenbox{
+    background-color: #006aa8;
+}
+.swedenstr{background-color: #fecd00; position: absolute;}
+/* horizontal strip */
+#sweden1{
+    width: 100%;
+    height: 20%;
+    top:40%;
+}
+/* vertical strip */
+#sweden2{
+  height: 100%;
+  width:12.5%;
+  left:31.25%;
+}
+/* ------------------------------------------ */
+/* Greece */
+#greece{left: 500px; top: 800px;}
+#greecebox{background-color: #0d5eaf;}
+/* Assigned for each white strip */
+.grstrip{position:absolute; background-color: white;}
+/* For the vertical strip in the cross */
+#plus1{
+    width: 7.4%;
+    height: 55.55%;
+    left:14.81%;
+}
+/* For the horizontal strip in the cross */
+#plus2{top:22.22%; width: 37.03%;}
+/* Assigned for each horizontal strip */
+.horizontal{height: 11.11%;}
+/* Assigned for two small width strips on the right of cross */
+.small{width: 62.97%;left: 37.03%;}
+#small1{top: 11.11%;}
+#small2{top: 33.33%;}
+/* Assigned for two large width strips on the bottom of cross */
+.large{width: 100%;}
+#large1{top:55.55%;}
+#large2{top:77.77%;}
+
+/* ------------------------------------------ */
+/* Switzerland */
+#switzerland{top:1200px; position: absolute;}
+#switch{
+     position: absolute;
+     left: 18.75%;
+     height: 83.3%;
+     width: 62.5%;
+     background-color: red;
+}
+.swstrip{background-color: white;  position: absolute;v}
+#swvc{
+    height: 62.5%;
+    width: 18.75%;
+    top:18.75%;
+    left: 40.62%;
+}
+#swhz{
+    height: 18.75%;
+    width: 62.5%;
+    top:40.62%;
+    left:18.75%;
+}
+/* ------------------------------------------ */
