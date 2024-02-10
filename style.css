@@ -1,6 +1,10 @@
-/* Legacy Codebase */
 
-.country{height: 300px; width: 400px; position: absolute;}
+.country{
+    display: inline-block;
+    height: 300px; 
+    width: 400px; 
+    margin: 10px;
+}
 
 .circle{height: 150px;width: 150px;}
 
@@ -25,9 +29,6 @@ p{
     font-size: 1.5rem;
 }
 
-/* ---------------------------------------- */
-/* Palau */
-
 #palau{background-color: rgb(74, 173, 214);}
 
 #palaucircle{
@@ -38,14 +39,7 @@ p{
     top:20%;
 }
 
-
-/* ------------------------------------------ */
-/* Japan */
-#posJapan{
-    position: absolute;
-    left: 500px;
-    top:8px;
-}
+#posJapan{}
 #japan{background-color: white; border:1px solid rgb(236, 232, 225)}
 #japancircle{
     background-color: red;
@@ -54,12 +48,10 @@ p{
     left: 30%;
     top:20%;
 }
-/* ------------------------------------------ */
+
 /* Ukraine */
 #posukraine{
-    position: absolute;
-    left: 1000px;
-    top:8px;
+   
 }
 .ukraineup{
     position: absolute;
@@ -78,9 +70,7 @@ p{
 /* ------------------------------------------ */
 /* Latvia */
 #poslatvia{
-    position: absolute;
-    left: 1500px;
-    top:8px;
+  
 }
 #latvia{background-color: rgb(158, 48, 57);}
 .midlatvia{
@@ -93,8 +83,6 @@ p{
 /* ------------------------------------------ */
 /* Nigeria */
 #nigeria{
-    position: absolute;
-    top: 400px;
     border-top: 1px solid rgb(240, 233, 233);
 }
 #nigeriabox{
@@ -111,9 +99,6 @@ p{
 /* ------------------------------------------ */
 /* Peru */
 #peru{
-    position: absolute;
-    left: 500px;
-    top:400px;
     border-top: 1px solid rgb(240, 233, 233);
 }
 #perubox{background-color: rgb(217, 16, 35);}
@@ -127,9 +112,6 @@ p{
 /* ------------------------------------------ */
 /* Poland */
 #poland{
-    position: absolute;
-    left: 1000px;
-    top: 400px;
     border-top: 1px solid rgb(240, 233, 233);
 }
 .polandup{
@@ -147,7 +129,7 @@ p{
     top:50%;
 }
 /* ------------------------------------------ */
-#sweden{position: absolute; top:800px;}
+#sweden{}
 #swedenbox{
     background-color: #006aa8;
 }
@@ -166,7 +148,7 @@ p{
 }
 /* ------------------------------------------ */
 /* Greece */
-#greece{left: 500px; top: 800px;}
+#greece{}
 #greecebox{background-color: #0d5eaf;}
 /* Assigned for each white strip */
 .grstrip{position:absolute; background-color: white;}
