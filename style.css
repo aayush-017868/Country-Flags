@@ -1,197 +1,255 @@
-
-.country{
-    display: inline-block;
-    height: 300px; 
-    width: 400px; 
-    margin: 10px;
+body {
+  background: linear-gradient(135deg, #8a2be2, #20b2aa, #87ceeb);
+}
+.heading {
+  color: black;
+  text-align: center;
+  border: 2px solid rgb(57, 54, 54);
+  background-image: linear-gradient(
+    135deg,
+    #ff9a9e,
+    #fad0c4,
+    #fad0c4,
+    #a18cd1,
+    #fbc2eb
+  );
+}
+.container{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.country {
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  margin: 22px;
+  transition: transform 0.3s ease;
 }
 
-.circle{height: 150px;width: 150px;}
-
-p{
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    left:40%;
-    top:10%;
+.country:hover{
+  transform: scale(1.1);
 }
 
-.rectangle{position: absolute; height: 250px; width: 400px;}
-
-.name{
-    position: absolute;
-    top: 250px;
-    height: 40px;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    background-color: beige;
-    font-size: 1.5rem;
+.circle {
+  height: 150px;
+  width: 150px;
 }
 
-#palau{background-color: rgb(74, 173, 214);}
-
-#palaucircle{
-    background-color: yellow;
-    position: absolute;
-    border-radius: 50%;
-    left: 23%;
-    top:20%;
+p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 40%;
+  top: 10%;
 }
 
-#posJapan{}
-#japan{background-color: white; border:1px solid rgb(236, 232, 225)}
-#japancircle{
-    background-color: red;
-    position: absolute;
-    border-radius: 50%;
-    left: 30%;
-    top:20%;
+.rectangle {
+  position: absolute;
+  height: 260px;
+  width: 400px;
+}
+
+.name {
+  position: absolute;
+  top: 250px;
+  height: 40px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: beige;
+  font-size: 1.5rem;
+}
+
+#posPalau {
+  order: 3;
+}
+#palau {
+  background-color: rgb(74, 173, 214);
+}
+
+#palaucircle {
+  background-color: yellow;
+  position: absolute;
+  border-radius: 50%;
+  left: 23%;
+  top: 20%;
+}
+
+#japan {
+  background-color: white;
+}
+#japancircle {
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  left: 30%;
+  top: 20%;
 }
 
 /* Ukraine */
-#posukraine{
-   
+
+.ukraineup {
+  position: absolute;
+  background-color: #0057b8;
+  height: 50%;
+  width: 100%;
+  top: 0%;
 }
-.ukraineup{
-    position: absolute;
-    background-color: #0057b8;
-    height: 125px;
-    width: 100%;
-    top:0%;
-}
-.ukrainedown{
-    position: absolute;
-    background-color: #ffd700;
-    width: 100%;
-    height:50% ;
-    top:50%;
+.ukrainedown {
+  position: absolute;
+  background-color: #ffd700;
+  width: 100%;
+  height: 50%;
+  top: 50%;
 }
 /* ------------------------------------------ */
 /* Latvia */
-#poslatvia{
-  
+#latvia {
+  background-color: rgb(158, 48, 57);
 }
-#latvia{background-color: rgb(158, 48, 57);}
-.midlatvia{
-    position: absolute;
-    background-color: white;
-    height: 50px;
-    width: 100%;
-    top:100px;
+.midlatvia {
+  position: absolute;
+  background-color: white;
+  height: 19.23%;
+  width: 100%;
+  top: 40.38%;
 }
 /* ------------------------------------------ */
 /* Nigeria */
-#nigeria{
-    border-top: 1px solid rgb(240, 233, 233);
+
+#nigeriabox {
+  position: absolute;
+  background-color: rgb(0, 135, 81);
 }
-#nigeriabox{
-    position: absolute;
-    background-color: rgb(0, 135, 81);
-}
-.nigeriawhite{
-    position: absolute;
-    background-color: white;
-    height: 100%;
-    width:33%;
-    left:33%;
+.nigeriawhite {
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 33%;
+  left: 33%;
 }
 /* ------------------------------------------ */
 /* Peru */
-#peru{
-    border-top: 1px solid rgb(240, 233, 233);
+
+#perubox {
+  background-color: rgb(217, 16, 35);
 }
-#perubox{background-color: rgb(217, 16, 35);}
-.peruwhite{
-    position: absolute;
-    left: 33%;
-    height: 100%;
-    width: 33%;
-    background-color: white;
+.peruwhite {
+  position: absolute;
+  left: 33%;
+  height: 100%;
+  width: 33%;
+  background-color: white;
 }
 /* ------------------------------------------ */
 /* Poland */
-#poland{
-    border-top: 1px solid rgb(240, 233, 233);
+
+.polandup {
+  position: absolute;
+  background-color: #ffffff;
+  height: 50%;
+  width: 100%;
+  top: 0%;
 }
-.polandup{
-    position: absolute;
-    background-color: #ffffff;
-    height: 125px;
-    width: 100%;
-    top:0%;
-}
-.polanddown{
-    position: absolute;
-    background-color: rgb(220, 20, 60);
-    width: 100%;
-    height: 50%;
-    top:50%;
+.polanddown {
+  position: absolute;
+  background-color: rgb(220, 20, 60);
+  width: 100%;
+  height: 50%;
+  top: 50%;
 }
 /* ------------------------------------------ */
-#sweden{}
-#swedenbox{
-    background-color: #006aa8;
+#swedenbox {
+  background-color: #006aa8;
 }
-.swedenstr{background-color: #fecd00; position: absolute;}
+.swedenstr {
+  background-color: #fecd00;
+  position: absolute;
+}
 /* horizontal strip */
-#sweden1{
-    width: 100%;
-    height: 20%;
-    top:40%;
+#sweden1 {
+  width: 100%;
+  height: 20%;
+  top: 40%;
 }
 /* vertical strip */
-#sweden2{
+#sweden2 {
   height: 100%;
-  width:12.5%;
-  left:31.25%;
+  width: 12.5%;
+  left: 31.25%;
 }
 /* ------------------------------------------ */
 /* Greece */
-#greece{}
-#greecebox{background-color: #0d5eaf;}
+#greecebox {
+  background-color: #0d5eaf;
+}
 /* Assigned for each white strip */
-.grstrip{position:absolute; background-color: white;}
+.grstrip {
+  position: absolute;
+  background-color: white;
+}
 /* For the vertical strip in the cross */
-#plus1{
-    width: 7.4%;
-    height: 55.55%;
-    left:14.81%;
+#plus1 {
+  width: 7.4%;
+  height: 55.55%;
+  left: 14.81%;
 }
 /* For the horizontal strip in the cross */
-#plus2{top:22.22%; width: 37.03%;}
+#plus2 {
+  top: 22.22%;
+  width: 37.03%;
+}
 /* Assigned for each horizontal strip */
-.horizontal{height: 11.11%;}
+.horizontal {
+  height: 11.11%;
+}
 /* Assigned for two small width strips on the right of cross */
-.small{width: 62.97%;left: 37.03%;}
-#small1{top: 11.11%;}
-#small2{top: 33.33%;}
+.small {
+  width: 62.97%;
+  left: 37.03%;
+}
+#small1 {
+  top: 11.11%;
+}
+#small2 {
+  top: 33.33%;
+}
 /* Assigned for two large width strips on the bottom of cross */
-.large{width: 100%;}
-#large1{top:55.55%;}
-#large2{top:77.77%;}
+.large {
+  width: 100%;
+}
+#large1 {
+  top: 55.55%;
+}
+#large2 {
+  top: 77.77%;
+}
 
 /* ------------------------------------------ */
 /* Switzerland */
-#switzerland{top:1200px; position: absolute;}
-#switch{
-     position: absolute;
-     left: 18.75%;
-     height: 83.3%;
-     width: 62.5%;
-     background-color: red;
+.swstrip {
+  background-color: white;
+  position: absolute;
 }
-.swstrip{background-color: white;  position: absolute;v}
-#swvc{
-    height: 62.5%;
-    width: 18.75%;
-    top:18.75%;
-    left: 40.62%;
+.box {
+  position: absolute;
+  height: 100%;
+  left: 17.5%;
+  right: 17.5%;
+  width: 65%;
+  background-color: red;
 }
-#swhz{
-    height: 18.75%;
-    width: 62.5%;
-    top:40.62%;
-    left:18.75%;
+#swvc {
+  height: 62.5%;
+  width: 18.75%;
+  top: 18.75%;
+  left: 40.62%;
+}
+#swhz {
+  height: 18.75%;
+  width: 62.5%;
+  top: 40.62%;
+  left: 18.75%;
 }
 /* ------------------------------------------ */
