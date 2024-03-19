@@ -23,9 +23,7 @@ To get a local copy up and running, follow these steps:
 1. Clone the repository
 2. Open `index.html` in your browser
 
-## 📫 How to Reach Me
-
-aayushpatle01@gmail.com
+## 📫 How to Reach Me : aayushpatle01@gmail.com
 
 Thank you for visiting my Flag Designer repository. Enjoy exploring my work!
 
